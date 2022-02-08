@@ -1,0 +1,205 @@
+/*CSS DE LOS PRODUCTOS*/
+ img.imagen {
+ margin-left:auto;
+ margin-right:auto;
+ display:block;
+ padding-top:5px;
+ }
+ .bodyshop{
+    font-size:25px;
+    color:#000000;
+ }
+ div.etiquetas {
+ color:black;
+ text-align:center;
+ width:222px;
+ height:22px;
+ }
+ 
+ div.stock {padding-left:0px;}
+ 
+ input.uniBien {
+ position:relative;
+ margin-left:45px;
+ 
+ 
+ background:white;
+ }
+ input.uniMal {
+ margin-left:52px;
+ background:red;
+ }
+ 
+ div.divsNo {display:none;}
+ div.divsSi {display:yes;}
+ 
+ #todo{
+ position:relative;
+ top:0px;
+ margin-left:auto;
+ margin-right:auto;
+ display:block;
+ width:1000px;
+ background: rgb(75, 71, 92);
+}
+ div.todoNo{height:1400px;}
+ div.todoSi{height:1500px;}
+ 
+ 
+ #menu{
+ position:absolute;
+ top:26px;
+ left:26px;
+ width:715px;
+}
+ div.menuNo{height:775px;}
+ div.menuSi{height:1040px;}
+ 
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2em;
+}
+ 
+/*CSS DEL CARRITO DE LA COMPRA*/
+ /*Div para los botones*/
+ #divbotones{
+ position:relative;
+ top:42px;
+ left:11px;
+ width:440px;
+ height:23px;
+ }
+ 
+ #tablaTotal {
+ margin: 0px 0px 0px 0px;
+ }
+ td.pro {
+ width:300px;
+ text-align:center;
+ background:#1a6c68;
+ }
+ td.uni {
+ width:150px;
+ text-align:center;
+ background:#1a6c68;
+ }
+ td.preUni {
+ width:150px;
+ text-align:center;
+ background:#1a6c68;
+ }
+ td.preTotal {
+ width:150px;
+ text-align:center;
+ background:#1a6c68;
+ }
+ tr.proCarrito {
+ text-align:center;
+ }
+ 
+ /*Divs para la zona de compras*/
+ div.divZonaCompraSi{
+ position:relative;
+ top:94px;
+ padding:0px 11px 20px 11px;
+ display:yes;
+ width:693px;
+ height:auto;
+ 
+ background:#3c8c89;
+ }
+ div.divZonaCompraNo{
+ position:relative;
+ top:742px;
+ padding:0px 11px 20px 11px;
+ display:none;
+ width:693px;
+ height:385px;
+ 
+ background:#3c8c89;
+ }
+ 
+ /*Divs del carrito y formularios*/
+ #divTotal{
+ background:#378582;
+ }
+ #divDatos{
+ background:#378582;
+ }
+ 
+ #divPago{
+ height: 150px;
+ padding-left:10px;
+ background:#378582;
+ }
+ 
+ #divDatosPersonales0 {
+ position:relative;
+ left:0px;
+ padding:0px 0px 0px 10px;
+ width:440px;
+ height:250px;
+ }
+ 
+ #divDatosPersonales1 {
+ position:relative;
+ width:230px;
+ height:130px;
+ }
+ 
+ #divDatosPersonales2 {
+ position:relative;
+ top:-130px;
+ left:350px;
+ width:200px;
+ height:130px;
+ }
+ 
+ #divDomicilio{
+ padding:0px 0px 0px 10px;
+ }
+ 
+ 
+ 
+ 
+ 
+/*CSS VALIDACION*/ 
+ input.textBien {background:#d1fbe1;}
+ input.textMal {background:pink;}
+ select.textBien {background:#d1fbe1;}
+ select.textMal {background:pink;} 
+ span.alertTipoDeTarjeta {color:red;}
+ 
+ 
+ 
+/*Metodos de pago*/ 
+#metodosDePago{
+ position:relative;
+ top:8px;
+ width:128px;
+ height:60px;
+}
+ 
+#divNumeroTarjeta{
+ position:relative;
+ top:-52px;
+ left:140px;
+ width:180px;
+ height:70px;
+}
+ 
+input.logoTarjetas { 
+ bottom:6px;
+ position: relative;
+} 
+ 
+ 
+ 
+/*Pie de pagina	*/
+p.pie {
+ text-align:center;
+}
+a:link {
+ color:white;
+} 
