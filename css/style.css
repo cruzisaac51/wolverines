@@ -64,6 +64,9 @@
     flex: 1;
     margin-left: 20px;
   }
+  .responsive li {
+    display: block;
+  }
   
   hr {
     margin: 10px 0;
@@ -87,8 +90,8 @@
     border: 0;
     font-weight: bold;
     padding: 10px 20px;
-    background: #262626;
-    color: #fff;
+    background: #5ce004;
+    color: rgb(7, 3, 3);
     font-size: 20px;
     border: 1px solid #fff;
   }
@@ -99,21 +102,23 @@
   
   .showcase {
     width: 100%;
-    height: 550px;
-    background: url("../images/showcase3.jpg") center;
+    background: url("../images/showcase24.jpg") center/114% no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     justify-content: flex-end;
     padding-top: 657px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     color: #fff;
   }
   
   .showcase h2,
   .showcase p {
     margin-bottom: 10px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 3px;
   }
   
   .showcase .btn {
@@ -147,11 +152,14 @@
   }
   
   /* CARDS BANNER ONE */
-  .cards-banner-one {
-    width: 100%;
-    height: 350px;
-    background: url("../images/baner.jpg") no-repeat center center/cover;
+  .cards-banner-one, .cards-banner-two {
+    height: 550px;
+    /* background: url("../images/baner.jpg") no-repeat center center/cover; */
     margin-bottom: 40px;
+    border-radius:10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: 10px;
+    padding: 10px
   }
   
   .cards-banner-one .content {
@@ -159,19 +167,42 @@
     padding: 90px 0 0 30px;
     color: #fff;
   }
-  
+  .cards-banner-one h2, h3,
+  .cards-banner-two h2, h3 {
+    text-align: center;
+  }
+  .cards-banner-one h2,
+  .cards-banner-two h2{
+    font-size:3.5rem;
+    background:#5ce004;
+    border-radius: 3px;
+  }
+  .cards-banner-one h3, 
+  .cards-banner-two h3 {
+    font-size:2rem;
+  }
+  .cards-banner-one img {
+    margin: 20px 20px 20px 20px;
+    float: right;
+    height:400px
+  }
+  .cards-banner-two img {
+    margin: 20px 20px 20px 20px;
+    float: left;
+    height:400px
+  }
   .cards-banner-one p,
   .cards-banner-two p {
-    margin: 10px 0 20px 0;
+    text-align: left;
+    color: var(--white);
+    margin: 1em 0em 2em 5em;
+    font-size: 1.5em;
   }
-  
-  /* CARDS BANNER TWO*/
-  .cards-banner-two {
-    width: 100%;
-    height: 350px;
-    background: url("./img/image-five.jpg") no-repeat center center/cover;
+  article{
+    height: 700px;
+    margin: 10px;
+    padding: 10px
   }
-  
   .cards-banner-two .content {
     width: 50%;
     padding: 100px 0 0 30px;

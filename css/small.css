@@ -1,0 +1,39 @@
+@media(max-width:480px) {
+    .showcase {
+        background: url(../images/SHOWCASE22.jpg) center/130% no-repeat;
+        padding-top: 0px;
+    }
+    .oferta{
+        padding-top: 400px;
+    }
+    article{
+        height:450px;
+    }
+    .cards-banner-one, 
+    .cards-banner-two {
+        height: 50%;
+        padding: 60px 30px;
+    }
+    .cards-banner-one img, 
+    .cards-banner-two img {
+        height: 200px;
+        width:100%;
+        margin: 0;
+    }
+    .cards-banner-one p, 
+    .cards-banner-two p {
+        margin: 0px 0px 10px 0px;
+        font-size: 1rem;
+    }
+    .cards-banner-one h2, 
+    .cards-banner-two h2 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 1.7rem;
+    }
+    .cards-banner-one h3, 
+    .cards-banner-two h3 {
+        margin-bottom: 10px;
+        font-size: 1.3rem;
+    }
+}
