@@ -1,13 +1,17 @@
-@media(max-width:480px) {
+@media(max-width:580px) {
     .showcase {
-        background: url(../images/SHOWCASE22.jpg) center/130% no-repeat;
-        padding-top: 0px;
+        background: url(../images/portada.png) center/130% no-repeat;
+        padding-top: 450px;
+        margin-top: -120px;
+    }
+    .showcase2 h2{
+        font-size: 1.9rem;
     }
     .oferta{
-        padding-top: 400px;
+        padding-top: 40px;
     }
     article{
-        height:450px;
+        height:300px;
     }
     .cards-banner-one, 
     .cards-banner-two {
@@ -16,8 +20,8 @@
     }
     .cards-banner-one img, 
     .cards-banner-two img {
-        height: 200px;
-        width:100%;
+        height: 80%;
+        width:90%;
         margin: 0;
     }
     .cards-banner-one p, 
@@ -29,7 +33,7 @@
     .cards-banner-two h2 {
         text-align: center;
         margin-bottom: 10px;
-        font-size: 1.7rem;
+        font-size: 1.9rem;
     }
     .cards-banner-one h3, 
     .cards-banner-two h3 {
@@ -37,3 +41,22 @@
         font-size: 1.3rem;
     }
 }
+
+@media (max-width: 500px) {
+    .news-cards {
+      grid-template-columns: 1fr;
+    }
+  
+    .cards-banner-one .content,
+    .cards-banner-two .content {
+      width: 100%;
+      padding: 60px 20px;
+    }
+    .footer-links .footer-container {
+      grid-template-columns: 1fr;
+    }
+  
+    .footer-links .footer-container ul {
+      text-align: center;
+    }
+  }
