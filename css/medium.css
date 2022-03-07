@@ -65,11 +65,17 @@
     }
     .cards-banner-one p,
     .cards-banner-two p {
-    text-align: left;
-    margin: 0 0 10px 0;
+      text-align: left;
+      margin: 0 0 10px 0;
     }
   
     .footer-links .footer-container {
       grid-template-columns: repeat(2, 1fr);
+    }
+    /* learn page medium size */
+    .cards-banner-one-learn img{
+      margin: 50px 0px 20px 0px;
+      float: none;
+      width: -webkit-fill-available;
     }
   }
