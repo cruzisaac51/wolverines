@@ -1,4 +1,4 @@
-@media(max-width:580px) {
+@media screen and (min-width:200px) and (max-width:580px) {
     .menu-btn {
         display: block;
       }
@@ -41,9 +41,9 @@
       }
     
     .showcase {
-        background: url(../images/portada.png) center/130% no-repeat;
+        background: url(../images/NEWPORTADA1.svg) center/130% no-repeat;
         padding-top: 450px;
-        margin-top: -120px;
+        margin-top: -12rem;
     }
     .showcase3 {
       background: url(../images/fembanner.png) center/130% no-repeat;
@@ -62,10 +62,15 @@
     article{
         height:350px;
     }
-    .cards-banner-one, 
+    .cards-banner-one {
+      padding: 60px 30px;
+      margin-bottom: 300px;
+    } 
     .cards-banner-two {
         height: 50%;
         padding: 60px 30px;
+        margin-top: 140px;
+        margin-bottom: 200px;
     }
     .cards-banner-one img, 
     .cards-banner-two img {
@@ -169,5 +174,13 @@
   
     .footer-links .footer-container ul {
       text-align: center;
+    }
+
+    .contact-address {
+      display: flex;
+      align-items: center;
+      margin: 10px;
+      flex-direction: column;
+      padding-top: 10px;
     }
   }

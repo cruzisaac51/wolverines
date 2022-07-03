@@ -103,7 +103,7 @@
   
   .showcase {
     width: 100%;
-    background: url("../images/portada.png") center/114% no-repeat;
+    background: url("../images/NEWPORTADA1.svg") center/114% no-repeat;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -213,20 +213,55 @@
     display: inline-block;
     font-weight: bold;
   }
+  .contact-address {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  .contact-address ul {
+    list-style-type: none;
+  }
+
+  .contact-address p {
+    line-height: 2;
+    text-align: center;
+    gap: 2rem;
+  }
   
+  .ubihover li {
+    transition: .5s;
+  }
+  .ubihover li:hover::before {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px #ffee10;
+  }
+
+  .ubihover li:hover {
+    color: #ffee10;
+    box-shadow: 0 0 5px #ffee10;
+    text-shadow: 0 0 5px #ffee10;
+    border-radius: 10px;
+  }
+
+  .visitanos{
+    font-size: 4rem;
+    text-align: center;
+  }
   /* CARDS BANNER ONE */
   .cards-banner-one {
-    height: 850px;
+    height: 550px;
     border-radius:10px;
     background-color: rgba(0, 0, 0, 0.8);
-    margin: 1EM 1EM 4EM 1EM;
+    margin: 1EM 1EM 2EM 1EM;
     padding: 20px
   }
   .cards-banner-two {
-    height: 850px;
+    height: 630px;
     border-radius:10px;
     background-color: rgba(0, 0, 0, 0.8);
-    margin: 4EM 1EM 4EM 1EM;
+    margin: 9EM 1EM 4EM 1EM;
     padding: 20px
   }
   

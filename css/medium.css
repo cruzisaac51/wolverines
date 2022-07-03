@@ -1,7 +1,7 @@
-@media (min-width: 581px) and (max-width: 900px) {
+@media screen and (min-width: 581px) and (max-width: 980px) {
     .menu-btn {
-      display: block;
-    }
+        display: block;
+      }
   
     .menu-btn:hover {
       opacity: 0.5;
@@ -42,6 +42,22 @@
   
     .news-cards {
       grid-template-columns: repeat(2, 1fr);
+    }
+
+    .showcase {
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      justify-content: flex-end;
+      padding-top: 457px;
+      color: #fff;
+    }
+
+    .cards-banner-one,
+    .cards-banner-two {
+      height: 850px;
     }
     .cards-banner-one img, 
     .cards-banner-two img {
