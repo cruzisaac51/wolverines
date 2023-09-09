@@ -96,17 +96,10 @@
       width: -webkit-fill-available;
     }
     #gallery {
-      position: absolute;
+      position: relative;
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
       grid-gap: 5px;
-      width: 700px;
-      max-width: 1500px;
-      min-width: 500px;
-      padding: 0 10px;
-      left: 50%;
-      transform: translate(-50%, -50%);
       justify-items: center;
-      height:1000px;
     }
   }
