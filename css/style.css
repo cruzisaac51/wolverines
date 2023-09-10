@@ -422,9 +422,10 @@ button {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
+  margin-top: 50px;
 }
 .videomesures{
   width: 350px;
-  height: 400px;
+  max-height: 400px;
   padding-bottom: 20px;
 }

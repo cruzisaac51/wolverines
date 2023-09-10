@@ -1,4 +1,4 @@
-@media screen and (min-width:200px) and (max-width:580px) {
+@media only screen and (min-device-width : 320px) and (max-device-width : 780px) {
     .menu-btn {
         display: block;
     }
@@ -122,6 +122,19 @@
     left: 0;
     font-size: 3rem;
    }
+
+   #btn-adelantar:hover, #btn-retroceder:hover{
+    font-size: 3rem;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+  }
+  #btn-cierre:hover{
+    font-size: 3rem;
+    background: none;
+    margin: 0px;
+    padding: 0px;
+  }
    #contenedor-principal {
      position: fixed;
      top: 0;
@@ -135,12 +148,11 @@
      background-color: rgba(0, 0, 0, 0.8)
    }
    #contenedor-interno {
-     width: 350px;
-     height:350px;
-     padding:2px;
-     display: flex;
-     justify-content:center;
-     position: relative;
+      width: 35em;
+      height: 22em;
+      display: flex;
+      justify-content:center;
+      position: relative;
    }
 }
 
